@@ -51,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.SimpleTest1">
+  <component name="RunManager" selected="TestNG.Simple1Test">
     <configuration name="SampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_TestNG" />
       <extension name="coverage">
@@ -106,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Simple1Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_TestNG" />
       <extension name="coverage">
         <pattern>
@@ -115,7 +115,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="example1" />
-      <option name="MAIN_CLASS_NAME" value="example1.SimpleTest1" />
+      <option name="MAIN_CLASS_NAME" value="example1.Simple1Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -125,7 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SimpleTest1" />
+        <item itemvalue="TestNG.Simple1Test" />
         <item itemvalue="TestNG.SampleTest" />
         <item itemvalue="TestNG.SampleTest.test" />
         <item itemvalue="TestNG.SampleTest.test (1)" />
