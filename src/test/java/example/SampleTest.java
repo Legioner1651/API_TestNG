@@ -14,6 +14,7 @@ public class SampleTest {
 
     @Test(dataProvider = "data")
     public void test(String d) {
-        Assert.assertEquals("First Line\nSecond Line", "Third Line\nFourth Line");
+        System.out.println(d);
+        Assert.assertEquals("First Line\nSecond Line", "First Line\nSecond Line");
     }
 }

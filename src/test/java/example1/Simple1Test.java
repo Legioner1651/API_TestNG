@@ -2,10 +2,11 @@ package example1;
 
 import org.testng.annotations.*;
 
-public class SimpleTest1 {
+public class Simple1Test {
 
     @BeforeClass
     public void setUp() {
+        System.out.println("!!!metod setUp!!!");
         // code that will be invoked when this test is instantiated
     }
 
