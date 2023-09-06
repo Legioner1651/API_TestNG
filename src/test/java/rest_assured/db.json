@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Reka",
+      "lastName": "NV",
+      "subjectId": 1
+    },
+    {
+      "id": 2,
+      "firstName": "Raja",
+      "lastName": "NV",
+      "subjectId": 2
+    },
+    {
+      "id": 3,
+      "firstName": "Vasan",
+      "lastName": "NV",
+      "subjectId": 1
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Automation"
+    },
+    {
+      "id": 2,
+      "name": "selenium"
+    }
+  ]
+}
