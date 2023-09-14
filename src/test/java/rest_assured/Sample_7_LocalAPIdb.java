@@ -4,10 +4,10 @@ import static io.restassured.RestAssured.*;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
-public class LocalAPIdb {
+public class Sample_7_LocalAPIdb {
     //RUN 1 BY 1
     //@Test
-    @Test(priority=1)
+    @Test(priority=1, enabled = false)
     public void getRequest() {
         baseURI="http://localhost:3000";
         given()
@@ -17,7 +17,7 @@ public class LocalAPIdb {
     }
 
     //@Test
-    @Test(priority=2)
+    @Test(priority=2, enabled = false)
     public void postRequest() {
         baseURI="http://localhost:3000";
         JSONObject jsonobject=new JSONObject();
@@ -36,7 +36,7 @@ public class LocalAPIdb {
                 .statusCode(201).log().all();
     }
     //@Test
-    @Test(priority=3)
+    @Test(priority=3, enabled = false)
     public void putRequest() {
         baseURI="http://localhost:3000";          //update
         JSONObject jsonobject=new JSONObject();
@@ -55,7 +55,7 @@ public class LocalAPIdb {
                 .statusCode(200).log().all();
     }
     //@Test
-    @Test(priority=4)
+    @Test(priority=4, enabled = false)
     public void patchRequest() {
         baseURI="http://localhost:3000";          //update the put
         JSONObject jsonobject=new JSONObject();
@@ -74,7 +74,7 @@ public class LocalAPIdb {
     }
 
     //@Test
-    @Test(priority=5)
+    @Test(priority=5, enabled = false)
     public void deleteRequest() {
         baseURI="http://localhost:3000";
         when()

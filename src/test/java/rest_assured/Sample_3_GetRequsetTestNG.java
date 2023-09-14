@@ -6,9 +6,9 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 
-public class SampleGetRequsetTestNG {
+public class Sample_3_GetRequsetTestNG {
 
-    @Test
+    @Test   //(enabled = false)
     public void getRequestTestNG()
     {
         Response response=	RestAssured.get("https://reqres.in/api/users/2");
@@ -26,7 +26,7 @@ public class SampleGetRequsetTestNG {
     }
 
 
-    @Test
+    @Test   //(enabled = false)
     public void test_1()
     {
         Response response=RestAssured.get("https://reqres.in/api/users?page=2");

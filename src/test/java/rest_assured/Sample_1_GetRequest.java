@@ -3,7 +3,7 @@ package rest_assured;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class SampleGetRequest {
+public class Sample_1_GetRequest {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         Response response=RestAssured.get("http://www.google.co.in");

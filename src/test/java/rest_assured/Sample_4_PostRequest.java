@@ -1,14 +1,11 @@
 package rest_assured;
 
-import java.util.HashMap;
-import java.util.Map;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import io.restassured.response.ValidatableResponse;
 
-public class SamplePostRequest {
+public class Sample_4_PostRequest {
 
     @Test
     public void testPost() {

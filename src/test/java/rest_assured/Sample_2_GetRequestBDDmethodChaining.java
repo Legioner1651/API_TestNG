@@ -2,10 +2,10 @@ package rest_assured;
 
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
-import io.restassured.response.Response;
+
 import io.restassured.response.ValidatableResponse;
 
-public class SampleGetRequestBDDmethodchaining {
+public class Sample_2_GetRequestBDDmethodChaining {
     @Test
     public void getRequestBDD()
     {

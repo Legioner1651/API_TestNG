@@ -3,9 +3,8 @@ package rest_assured;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
-import io.restassured.response.ValidatableResponse;
 
-public class SamplePutRequest {
+public class Sample_5_PutRequest {
 
     @Test(priority=1)
     public void putRequestExample()
